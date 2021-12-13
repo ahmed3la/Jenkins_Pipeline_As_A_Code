@@ -6,7 +6,7 @@ pipeline {
         echo 'Build Completed'
         timeout(time: 5, unit: 'NANOSECONDS') {
         // some block
-        sh 'sleep 10'
+        sh 'sleep 2'
 }
       }
     }
